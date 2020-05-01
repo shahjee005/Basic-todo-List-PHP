@@ -44,8 +44,15 @@
       <?php endforeach; ?>
     </ul>
   <?php endif; ?>
-  
-  
+  <h2> Debugging
+  <pre>
+    <strong>$_POST contents:</strong>
+    <?php var_dump( $_POST ); ?>
+  </pre>
+  <pre>
+    <strong>$_SESSION contents:</strong>
+    <?php var_dump( $_SESSION ); ?>
+  </pre>
  
 </body>
 </html>
