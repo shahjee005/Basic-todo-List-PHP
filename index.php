@@ -7,14 +7,13 @@
 
   $_SESSION['addItemToList']= array_values($_SESSION['addItemToList']);
 
-//Coolecting the submission information using Post Methord 
+//Coolecting the submission information using POST Methord 
   if( isset($_POST) && !empty($_POST))
   {
-    //adding new element to the array using arrat_push function 
+    //adding new element to the array using array_push function 
       array_push ($_SESSION['addItemToList'],$_POST['addItem']);
     }
-  
-?>
+    ?>
  <!DOCTYPE html>
 <html lang="en">
 <head>
